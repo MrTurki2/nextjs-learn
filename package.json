@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:fast": "source .env.local && npm run build && npx wrangler pages deploy out --project-name=nextjs-learn --commit-dirty=true"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
