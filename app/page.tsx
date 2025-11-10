@@ -15,7 +15,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-secondary rounded-full text-sm font-medium">
               <Sparkles className="w-4 h-4 text-primary" />
-              <span>التعديل رقم رقم ٨٨٨</span>
+              <span>🚀 التعديل رقم رقم ٨٨٨ - اختبار Auto Deploy</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
