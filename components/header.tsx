@@ -11,6 +11,7 @@ export function Header() {
     { name: "خدماتنا", href: "#features" },
     { name: "عن الشركة", href: "#about" },
     { name: "تواصل معنا", href: "#contact" },
+    { name: "المستخدمين", href: "#users" },
   ]
 
   return (
