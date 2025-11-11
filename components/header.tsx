@@ -7,11 +7,11 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { name: "الرئيسية", href: "#" },
+    { name: "الرئيسية", href: "/" },
     { name: "خدماتنا", href: "#features" },
     { name: "عن الشركة", href: "#about" },
     { name: "تواصل معنا", href: "#contact" },
-    { name: "المستخدمين", href: "#users" },
+    { name: "المستخدمين", href: "/users" },
   ]
 
   return (
